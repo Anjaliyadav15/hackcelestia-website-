@@ -129,7 +129,7 @@ body {
     width: 100%;
     height: 59px;
     z-index: 1000; /* Ensures the navbar is above other content */
-    background-color: #022149; /* Dark background for better contrast */
+    background-color: #041e3f; /* Dark background for better contrast */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
     padding: 0.5rem 7rem;
     
@@ -227,7 +227,7 @@ body {
 
 .frame1 {
 	height: 110%;
-	background-color: #022149;
+	background-color: #041e3f;
 }
 
 .frame1 .img-back {
@@ -315,7 +315,7 @@ body {
 }
 
 .frame1-left .devfolio button:hover {
-	color: #022149;
+	color: #041e3f;
 }
 
 .frame1-left .devfolio button:hover .button-back {
@@ -347,11 +347,11 @@ body {
 }
 
 #devfolio-apply-now:hover .logo {
-    fill: #022149;
+    fill: #041e3f;
 }
 
 #devfolio-apply-now:hover {
-    color: #022149;
+    color:#041e3f;
 }
 
 #devfolio-apply-now {
@@ -417,7 +417,7 @@ body {
 
 .frame2-right .name {
 	font-family: primetime;
-	color: #022149;
+	color: #041e3f;
 	text-align: center;
 	font-size: 2em;
 }
@@ -471,7 +471,7 @@ body {
 .frame3 {
 	height: auto;
 	padding: 150px 0px;
-	background-color: #022149;
+	background-color: #041e3f;
 	color: white;
 	font-family: 'Didact Gothic';
 	text-align: center;
@@ -584,7 +584,7 @@ body {
 
 .frame4-right .name {
 	font-family: primetime;
-	color: #022149;
+	color: #041e3f;
 	text-align: center;
 	font-size: 2em;
 }
@@ -618,7 +618,7 @@ body {
 .frame4 .timeline {
 	margin-top: 20px;
 	padding: 20px 0px;
-	border-left: 4px solid #022149;
+	border-left: 4px solid #041e3f;
 	width: 80%;
 	display: inline-block;
 }
@@ -635,7 +635,7 @@ body {
 	height: 20px;
 	width: 20px;
 	border-radius: 50px;
-	border: 7px solid #022149;
+	border: 7px solid #041e3f;
 	background-color: white;
 	position: absolute;
 	top: 5px;
@@ -644,7 +644,7 @@ body {
 
 .schedule-content {
 	padding: 0px 10px 20px 10px;
-	border-bottom: 2px solid #022149;
+	border-bottom: 2px solid #041e3f;
 }
 
 .schedule-date {
@@ -656,13 +656,13 @@ body {
 .schedule-title {
 	font-size: 1.1em;
 	margin-top: 5px;
-	color: #022149;
+	color: #041e3f;
 }
 
 .schedule-text {
 	font-size: 0.9em;
 	margin-top: 5px;
-	color: #022149;
+	color: #041e3f;
 }
 
 .schedule-3 .schedule-content {
@@ -680,10 +680,10 @@ body {
 .frame5 {
 	height: auto;
 	padding: 150px 0px;
-	background-color: #022149;
+	background-color: #041e3f;
 	color: white;
 	font-family: 'Didact Gothic';
-	text-align: center;
+	/* text-align: center; */
 }
 
 .frame5 .img-back {
@@ -794,7 +794,7 @@ body {
 
 .frame6 .name {
 	font-family: primetime;
-	color: #022149;
+	color: #041e3f;
 	text-align: center;
 	font-size: 2em;
 	margin: 10px 0px 20px 0px;
@@ -835,7 +835,7 @@ body {
 	width: 30%;
 	overflow: hidden;
 	display: inline-block;
-	border: 2px solid #022149;
+	border: 2px solid #041e3f;
 	margin: 1.5%;
 	background-color: white;
 	padding: 20px 0px;
@@ -855,9 +855,9 @@ body {
 
 .prize-text {
 	font-family: 'Didact Gothic';
-	color: #022149;
+	color: #041e3f;
 	font-weight: bold;
-	background-color: #022149;
+	background-color: #041e3f;
 	color: white;
 	padding: 10px 15px;
 	width: 100%;
@@ -875,7 +875,7 @@ body {
 .frame7 {
 	height: auto;
 	padding: 150px 0px;
-	background-color: #022149;
+	background-color: #041e3f;
 	color: white;
 	font-family: 'Didact Gothic';
 	text-align: center;
@@ -965,7 +965,7 @@ body {
 }
 
 .footer-text a {
-	color: #022149;
+	color:#041e3f;
 	text-decoration: none;
 }
 
@@ -977,9 +977,19 @@ body {
 	font-size: 1.5rem;
 	padding: 10px;
 	border-radius: 10px;
-	line-height: 1.6;
-	
+	line-height: 1.6;list-style-position: inside;
+
 }
+.guidelines ul {
+	 /* Ensures the bullet points start at the same point */
+	padding-left: 20px; /* Adjust the left padding as needed */
+	/* Removes default margins */
+	line-height: 1.6; /* Adds spacing between list items */
+	margin-bottom: 10px;
+	margin-left: 150px;
+  }
+
+  
 .full-width-image{
 	width: 100%;
 	height: 80%;
@@ -987,3 +997,21 @@ body {
 	margin-top: 80px;
 	padding: 0;
 }
+
+.button2 {
+	display: block; /* Allows the button to be centered */
+	margin: 20px auto; /* Centers the button horizontally */
+	padding: 15px 30px; /* Increases padding for a larger button */
+	font-size: 20px; /* Increases the text size */
+	background-color: white; 
+	color: black; 
+	border: 5px solid #041e3f;
+	border-radius: 25px; /* Makes the button rounded */
+	cursor: pointer; /* Adds a pointer on hover */
+	transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .button2:hover {
+	background-color: #041e3f; /* Changes background on hover */
+	color: white; /* Changes text color on hover */
+  }
